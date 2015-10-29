@@ -62,10 +62,10 @@
 			children = (
 				32147FD31BE10E59000116C0 /* AppDelegate.swift */,
 				32147FD51BE10E59000116C0 /* PlaylistMasterViewController.swift */,
+				32147FE51BE11F26000116C0 /* PlaylistDetailViewController.swift */,
 				32147FD71BE10E59000116C0 /* Main.storyboard */,
 				32147FE71BE262BC000116C0 /* MusicLibrary.swift */,
 				32147FE91BE263CA000116C0 /* Playlist.swift */,
-				32147FE51BE11F26000116C0 /* PlaylistDetailViewController.swift */,
 				32147FDA1BE10E59000116C0 /* Assets.xcassets */,
 				32147FDC1BE10E59000116C0 /* LaunchScreen.storyboard */,
 				32147FDF1BE10E59000116C0 /* Info.plist */,

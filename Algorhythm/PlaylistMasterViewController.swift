@@ -9,16 +9,15 @@
 import UIKit
 
 class PlaylistMasterViewController: UIViewController {
-    @IBOutlet weak var aButton: UIButton!
     @IBOutlet weak var playlistImageView0: UIImageView!
+    @IBOutlet weak var aButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        aButton.setTitle("Press me!", forState: UIControlState.Normal)
         let playlist = Playlist(index: 0)
         playlistImageView0.image = playlist.icon
         playlistImageView0.backgroundColor = playlist.backgroundColor
-
-        aButton.setTitle("Press me!", forState: UIControlState.Normal)
     }
 
     override func didReceiveMemoryWarning() {

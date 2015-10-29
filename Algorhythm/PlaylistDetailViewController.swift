@@ -9,15 +9,12 @@
 import UIKit
 
 class PlaylistDetailViewController: UIViewController {
-    @IBOutlet weak var buttonPressLabel: UILabel!
 
     var playlist: Playlist?
-    var segueLabelText: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         if playlist != nil {
-            buttonPressLabel.text = playlist!.title
         }
     }
 
