@@ -17,6 +17,7 @@ class PlaylistMasterViewController: UIViewController {
         let playlist = Playlist(index: 0)
         playlistImageView0.image = playlist.icon
         playlistImageView0.backgroundColor = playlist.backgroundColor
+
         aButton.setTitle("Press me!", forState: UIControlState.Normal)
     }
 
@@ -29,7 +30,7 @@ class PlaylistMasterViewController: UIViewController {
         if segue.identifier == "showPlaylistDetail" {
             let playlistDetailViewController = segue.destinationViewController as!
                 PlaylistDetailViewController
-            playlistDetailViewController.segueLabelText = "Yay! You pressed the button!"
+            playlistDetailViewController.playlist = Playlist(index: 0)
         }
     }
 
