@@ -17,25 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dI1-6K-Y4J">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="6AL-5n-RVC">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
                                 <animations/>
-                                <color key="tintColor" red="1" green="0.99815267113161044" blue="0.97973184230155386" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </state>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Qic-fo-Ryy"/>
+                                    <constraint firstAttribute="width" constant="200" id="Vff-Mi-sPw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dI1-6K-Y4J">
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="iKa-cR-Vmi" kind="push" identifier="showPlaylistDetail" id="QLK-9s-uS5"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="6AL-5n-RVC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FOH-Fw-HFN"/>
                             <constraint firstItem="dI1-6K-Y4J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rue-UY-KKY"/>
-                            <constraint firstItem="dI1-6K-Y4J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bNY-6Y-Eyw"/>
-                            <constraint firstItem="dI1-6K-Y4J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gqH-Wj-rWg"/>
-                            <constraint firstItem="dI1-6K-Y4J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n0m-34-0zR"/>
+                            <constraint firstItem="dI1-6K-Y4J" firstAttribute="top" secondItem="6AL-5n-RVC" secondAttribute="bottom" constant="8" id="laQ-Pe-rsg"/>
+                            <constraint firstItem="6AL-5n-RVC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rPP-Cz-PRh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="4a9-4q-MLv"/>
@@ -103,4 +109,7 @@
             <point key="canvasLocation" x="162" y="366"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coffee" width="53" height="107"/>
+    </resources>
 </document>
