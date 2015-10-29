@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		32147FD41BE10E59000116C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32147FD31BE10E59000116C0 /* AppDelegate.swift */; };
-		32147FD61BE10E59000116C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32147FD51BE10E59000116C0 /* ViewController.swift */; };
+		32147FD61BE10E59000116C0 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32147FD51BE10E59000116C0 /* PlaylistMasterViewController.swift */; };
 		32147FD91BE10E59000116C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32147FD71BE10E59000116C0 /* Main.storyboard */; };
 		32147FDB1BE10E59000116C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32147FDA1BE10E59000116C0 /* Assets.xcassets */; };
 		32147FDE1BE10E59000116C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32147FDC1BE10E59000116C0 /* LaunchScreen.storyboard */; };
+		32147FE61BE11F26000116C0 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32147FE51BE11F26000116C0 /* PlaylistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32147FD01BE10E59000116C0 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32147FD31BE10E59000116C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32147FD51BE10E59000116C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32147FD51BE10E59000116C0 /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		32147FD81BE10E59000116C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32147FDA1BE10E59000116C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32147FDD1BE10E59000116C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32147FDF1BE10E59000116C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32147FE51BE11F26000116C0 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				32147FD31BE10E59000116C0 /* AppDelegate.swift */,
-				32147FD51BE10E59000116C0 /* ViewController.swift */,
+				32147FD51BE10E59000116C0 /* PlaylistMasterViewController.swift */,
 				32147FD71BE10E59000116C0 /* Main.storyboard */,
+				32147FE51BE11F26000116C0 /* PlaylistDetailViewController.swift */,
 				32147FDA1BE10E59000116C0 /* Assets.xcassets */,
 				32147FDC1BE10E59000116C0 /* LaunchScreen.storyboard */,
 				32147FDF1BE10E59000116C0 /* Info.plist */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32147FD61BE10E59000116C0 /* ViewController.swift in Sources */,
+				32147FE61BE11F26000116C0 /* PlaylistDetailViewController.swift in Sources */,
+				32147FD61BE10E59000116C0 /* PlaylistMasterViewController.swift in Sources */,
 				32147FD41BE10E59000116C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
