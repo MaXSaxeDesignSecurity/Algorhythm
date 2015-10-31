@@ -17,6 +17,7 @@ class PlaylistMasterViewController: UIViewController {
     @IBOutlet weak var playlistImageView3: UIImageView!
     @IBOutlet weak var playlistImageView4: UIImageView!
     @IBOutlet weak var playlistImageView5: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
